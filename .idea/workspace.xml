@@ -1,62 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Estudio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/obreros/Foto-carnet-Estefanía-Mestre.jpg-450" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/obreros/Foto-carnet-I.jpg-547" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/obreros/foto-carnet-734x486.jpg-297" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/obreros/foto-carnet-734x486.jpg-960" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/vehiculos/images.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Arma.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Hijo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Hijo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/PersonaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/PersonaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/PlanillaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/PlanillaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/RolController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/RolController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Imgarma.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Imgsustancia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Imgvehiculo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Obrero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Planilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Planilla.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/Rol.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/Rol.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_08_19_130527_create_personas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_08_19_130527_create_obreros_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_01_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_01_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_084941_create_planillas_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_091559_create_sustancias_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_092205_create_armas_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_093333_add_condicion_to_planillas.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_11_13_125802_add_condicion_to_estudios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_093452_add_condicion_to_armas.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_11_13_104632_add_campos_to_obreros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_093510_add_condicion_to_sustancias.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_11_13_112020_create_estudios_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_11_094735_add_fecha_to_planillas.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_11_13_090603_add_idobrero_to_obreros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_23_090640_add_images_to_planillas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_24_105702_create_imgsustancias_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_28_120005_add_condicion_to_imgsustancias.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_29_110654_create_imgarmas_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/database/migrations/2020_09_29_114932_create_imgvehiculos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/avatars/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/avatars/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/hermosa-mujer-foto-oficial-identificacion-internacional-pasaporte-carnet-identidad-carnet_100800-5766.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/istockphoto-580109640-612x612.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Persona.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Persona.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/PersonaCargaPlanilla.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/PersonaCargaPlanilla.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Planilla.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Planilla.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Rol.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/Rol.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components/User.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/contenido/contenido.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/contenido/contenido.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebaradministrador.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebaradministrador.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebarcarga.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebarcarga.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebarconsulta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/resources/views/plantilla/sidebarconsulta.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sistemas/cda1/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistemas/cda1/routes/web.php" afterDir="false" />
+    <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="primer commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,8 +205,23 @@
       <workItem from="1608121474689" duration="7113000" />
       <workItem from="1608205610759" duration="7292000" />
       <workItem from="1608305136598" duration="2684000" />
-      <workItem from="1608549216315" duration="8219000" />
+      <workItem from="1608549216315" duration="9156000" />
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <created>1608558634298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608558634298</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primer commit">
+      <created>1608558799731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608558799732</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,5 +238,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
   </component>
 </project>
