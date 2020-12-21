@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="primer commit">
+    <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="agregamos boton crear y para que no de errores con imagenes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Instructor/CoursesIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Instructor/CoursesIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ImageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ImageFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/instructor/courses/partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/instructor/courses/partials/form.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +209,7 @@
       <workItem from="1608121474689" duration="7113000" />
       <workItem from="1608205610759" duration="7292000" />
       <workItem from="1608305136598" duration="2684000" />
-      <workItem from="1608549216315" duration="9156000" />
+      <workItem from="1608549216315" duration="12388000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1608558634298</created>
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608558799732</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="agregamos boton crear y para que no de errores con imagenes">
+      <created>1608559477397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608559477397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +252,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <MESSAGE value="agregamos boton crear y para que no de errores con imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregamos boton crear y para que no de errores con imagenes" />
   </component>
 </project>
