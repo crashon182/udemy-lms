@@ -4,11 +4,11 @@ namespace App\Http\Controllers\Instructor;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use App\Models\Level;
-use App\Models\Price;
 use Illuminate\Http\Request;
 
 use App\Models\Course;
+use App\Models\Level;
+use App\Models\Price;
 
 use Illuminate\Support\Facades\Storage;
 
@@ -31,10 +31,12 @@ class CourseController extends Controller
      */
     public function create()
     {
+
         $categories = Category::pluck('name', 'id');
         $levels = Level::pluck('name', 'id');
         $prices = Price::pluck('name', 'id');
-        return view('instructor.courses.create', compact('categories','levels','prices'));
+
+        return view('instructor.courses.create', compact('categories', 'levels', 'prices'));
     }
 
     /**
@@ -45,6 +47,7 @@ class CourseController extends Controller
      */
     public function store(Request $request)
     {
+
         $request->validate([
             'title' => 'required',
             'slug' => 'required|unique:courses',
@@ -55,18 +58,18 @@ class CourseController extends Controller
             'price_id' => 'required',
             'file' => 'image'
         ]);
+
         $course = Course::create($request->all());
 
-
-
-
-        if ($request->file('file')){
+        if($request->file('file')){
             $url = Storage::put('courses', $request->file('file'));
+
             $course->image()->create([
-               'url' => $url
+                'url' => $url
             ]);
         }
-        return redirect()->route('instructor.courses.edit',$course);
+
+        return redirect()->route('instructor.courses.edit', $course);
     }
 
     /**
@@ -88,11 +91,12 @@ class CourseController extends Controller
      */
     public function edit(Course $course)
     {
+
         $categories = Category::pluck('name', 'id');
         $levels = Level::pluck('name', 'id');
         $prices = Price::pluck('name', 'id');
 
-        return view('instructor.courses.edit', compact('course','categories','levels','prices'));
+        return view('instructor.courses.edit', compact('course', 'categories', 'levels', 'prices'));
     }
 
     /**
@@ -106,7 +110,7 @@ class CourseController extends Controller
     {
         $request->validate([
             'title' => 'required',
-            'slug' => 'required|unique:courses,slug,'. $course->id,
+            'slug' => 'required|unique:courses,slug,' . $course->id,
             'subtitle' => 'required',
             'description' => 'required',
             'category_id' => 'required',
@@ -114,30 +118,26 @@ class CourseController extends Controller
             'price_id' => 'required',
             'file' => 'image'
         ]);
+
         $course->update($request->all());
 
         if($request->file('file')){
             $url = Storage::put('courses', $request->file('file'));
-            if($course->image){
+
+            if ($course->image) {
                 Storage::delete($course->image->url);
 
                 $course->image->update([
-                   'url' => $url
+                    'url' => $url
                 ]);
-            } else{
+            }else{
                 $course->image()->create([
                     'url' => $url
                 ]);
-
             }
-
         }
 
-        return redirect()->route('instructor.courses.edit',$course);
-
-
-
-
+        return redirect()->route('instructor.courses.edit', $course);
     }
 
     /**
