@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="update hasta video 40">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/instructor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Instructor/CoursesIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Instructor/CoursesIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/table-responsive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/table-responsive.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/instructor/courses-index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/instructor/courses/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/instructor/courses/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/instructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/instructor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Livewire/Admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
       <recent name="$PROJECT_DIR$/app/Http/Livewire/Admin" />
       <recent name="$PROJECT_DIR$/../../Sistemas/cda1/resources/js/components" />
     </key>
@@ -210,7 +211,9 @@
       <workItem from="1608205610759" duration="7292000" />
       <workItem from="1608305136598" duration="2684000" />
       <workItem from="1608549216315" duration="13171000" />
-      <workItem from="1608637845322" duration="1606000" />
+      <workItem from="1608637845322" duration="9909000" />
+      <workItem from="1608723541797" duration="6643000" />
+      <workItem from="1610112838973" duration="6583000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1608558634298</created>
@@ -240,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608567118143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hasta video 40">
+      <created>1608641419652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608641419652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="primer commit" />
     <MESSAGE value="agregamos boton crear y para que no de errores con imagenes" />
     <MESSAGE value="update hasta video 40" />
-    <option name="LAST_COMMIT_MESSAGE" value="update hasta video 40" />
+    <MESSAGE value="hasta video 40" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta video 40" />
   </component>
 </project>

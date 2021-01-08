@@ -33,6 +33,7 @@
 
         @stack('modals')
 
+        @livewireScripts
 
         @isset($js)
              {{$js}}
