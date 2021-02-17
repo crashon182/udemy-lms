@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d88af0-5023-4550-9e84-89865d6f8c17" name="Default Changelist" comment="update hasta video 40">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/instructor.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/instructor/courses/goals.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Instructor/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/CoursePolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/CoursePolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CourseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CourseFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/instructor/courses/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/instructor/courses/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/instructor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/instructor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/instructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/instructor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +215,8 @@
       <workItem from="1608549216315" duration="13171000" />
       <workItem from="1608637845322" duration="9909000" />
       <workItem from="1608723541797" duration="6643000" />
-      <workItem from="1610112838973" duration="6583000" />
+      <workItem from="1610112838973" duration="10576000" />
+      <workItem from="1613567579933" duration="8476000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1608558634298</created>
@@ -250,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608641419652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update video 46">
+      <created>1610120115393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610120115394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +283,7 @@
     <MESSAGE value="agregamos boton crear y para que no de errores con imagenes" />
     <MESSAGE value="update hasta video 40" />
     <MESSAGE value="hasta video 40" />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta video 40" />
+    <MESSAGE value="update video 46" />
+    <option name="LAST_COMMIT_MESSAGE" value="update video 46" />
   </component>
 </project>
